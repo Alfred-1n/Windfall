@@ -1,0 +1,96 @@
+
+:root{
+	--negro: rgba(0, 0, 0, .9);
+    --blanco: #f2f2f2;
+    --beige: #d9cdbf;
+}
+
+*{
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    color: #fff !important; 
+    font-size: 1.5rem; 
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    border-color: #fff; 
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: rgb(0, 180, 91); 
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-nav .nav-link {
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.container-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.conta-button{
+    text-align: center;
+    align-self: center;
+    border: 2px solid var(--blanco);
+    padding: 18px 35px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background: transparent;
+    font-size: 24px;
+}
+.conta-button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nounderline{
+	text-decoration: none;
+    color: #fff !important; 
+    text-transform: uppercase;
+}
+.navbar li a{
+    color: white;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar li a:hover{
+    color:var(--negro);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 10px;
+}
+
+.navbar-nav .nav-item:first-child {
+    border-left: 3px solid #fff; 
+}
+
+.navbar-nav .nav-item:last-child {
+    border-right: 3px solid #fff;
+}
+
+/*ajustar imagen inicio*/
+.carousel-img-size img{
+    width: 100%;
+    height: 100vh;
+}
+
+.img-fluid{
+	width: auto;          
+    height: auto;         
+    object-fit: cover;
+}
+/*ajustar imagen fin*/
